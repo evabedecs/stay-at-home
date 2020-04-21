@@ -1,0 +1,90 @@
+.container {
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
+  display: block;
+  width: 100%;
+  
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 3px;
+  height: 30px;
+  
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: #3cb878;
+    border: none;
+  color: white;
+  height: 30px;
+  }
+.newsletter-box {
+  color: grey;
+  padding:10px;
+  border: solid thin grey;
+  border-radius: 3px;
+  position: relative;
+  }
+
+.newsletter-box h3 {
+  margin-top: 0px;
+  /*   color: green; */
+ ;
+}
+#terms {
+  position: relative;
+  top: 2px;
+  
+}
+.closex {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  cursor: pointer;
+}
+.questioncircle {
+   width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  background: #3cb878;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right:10px;
+}
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  margin-bottom: 20px;
+  
+  height: 600px;
+}
+
+.card {
+  width: 180px;
+  background: #3cb878;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 5px 2px grey;
+  flex-grow: 1;
+  margin-left: 10px;
+  margin bottom: 10px;
+  margin-top:10px;
+}
